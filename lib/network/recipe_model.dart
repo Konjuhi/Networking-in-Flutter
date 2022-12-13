@@ -1,5 +1,3 @@
-import 'package:json_annotation/json_annotation.dart';
-
 part 'recipe_model.g.dart';
 
 class APIRecipeQuery {
@@ -77,7 +75,6 @@ String getWeight(double? weight) {
 }
 
 class APIIngredients {
-  @JsonKey(name: 'text')
   String name;
   double weight;
 
